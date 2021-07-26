@@ -26,13 +26,18 @@ Meetings Tue, Thur during class time.
 Additional meetings Sunday mornings.
 
 # Technologies Used
-*Jupyter Notebook
 
-*Pandas
+### Data Cleaning and Analysis
+Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using PyPlot. 
 
-*Python
+### Database Storage
+The "database" is simply a csv at the moment. But in order to integrate it with our webpage, we may later be using SQLite. SQLite also may be beneficial to more easily generate queries for the pertinant pitcher data. 
 
-*Javascript / HTML
+### Machine Learning
+Matthew has mocked up a gradient boosted classifer, a logistic model, and a neural network. 
+
+### Dashboard
+We will use both Flask and D3.json to create an interactive model. The model will be hosted on github. 
 
 # Circle Role/Database
 For our mock database, we have preprocessed the statcast CSV provided by the MLB. Dayton and I collaborated together to remove unecessary rows, encode categorical data, and clean the data for number inconsistencies and null values that could have caused issues in our preliminary data explorations. We have sent the prelim version of the csv to each member in the group to work as our prelim database. 
