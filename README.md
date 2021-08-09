@@ -39,4 +39,6 @@ Matthew has mocked up a gradient boosted classifer, a logistic model, and a neur
 ### Dashboard
 We will use both Flask and D3.json to create an interactive model. The model will be hosted on github. 
 
-
+## Updates
+Neural Net model "works" but with 0% accuracy. Need to update the zones to be catergorical rather than integers (should be easier for activation functions to predict). Also need to incorportate more datasets. 
+Started a skeleton of an html script and an app.js file based on the UFO sightings page. We will be making the fillable fields into drop down menus later. 
