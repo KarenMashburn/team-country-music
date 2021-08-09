@@ -1,0 +1,9 @@
+body {
+
+    color: #248b4b;
+}
+.jumbotron {
+    background-image: url("../images/baseball.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+}
