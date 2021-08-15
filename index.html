@@ -24,12 +24,23 @@
 <body class = "bg-dark">
     <div class="wrapper">
         <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
-            <a class="navbar-brand" href="index.html">
-              Pitch In! 
+            <div class='project-title'>Pitch In!</div>   
+            <a class='toggle-button' href='#'>
+              <span class='bar'></span>
+              <span class='bar'></span>
             </a>
+            <div class='dropdown'>
+                <button class='dropbtn'>Navigate</button>
+                <div class='dropdown-content'>
+                    <a href='/'>Home</a>
+                    <a href='/pitches'>Predict a Pitch</a>
+                    <a href='/zones'>Predict the Zone</a>
+                </div>
+            </div> 
+            </div>
         </nav>        
     </div>
-</body>
+
 
 
 <div class="jumbotron">
@@ -41,8 +52,6 @@
       </div>
   </h1>
 </div>
-
-</html>
 
 <div class="container-fluid">
     <div class="header">
@@ -184,5 +193,9 @@
       </div>
     </div>
   </div>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
   <script src="static/Python/app.py"></script>
+
+</body>
+</html>
