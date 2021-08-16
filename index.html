@@ -159,24 +159,7 @@
                             <input id="reset" type="reset" value="reset selections"
                                 onclick="document.getElementById('prediction').innerText=''">
 
-                <script>
-                  function refresh() {
-                      const prediction_button = document.getElementById("predict");
-                      prediction_button.onclick = function (event) {
-                          event.preventDefault();
-                          $.ajax({
-                              url: '/result',
-                              type: 'post',
-                              data: $('#selectionForm').serialize(),
-                              success: function (data) {
-                                  console.log(data)
-                                  $("#prediction").html(data)
-                              }
-                          });
-                      }
-                  }
-                  refresh()
-              </script>
+                
               </li>
               
             </ul>
