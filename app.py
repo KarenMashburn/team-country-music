@@ -1,5 +1,5 @@
 import numpy as np
-from flask import Flask, request, jsonify, render_template
+from flask import Flask, request, render_template
 import pickle
 
 app = Flask(__baseball__)
@@ -20,11 +20,9 @@ def Prediction(pitch_input):
 @app.route('/result', methods=['POST'])
 def result():
     if request.method == 'POST':
-        pitch_input = request.form.to_dict()
         pitch_input = list(pitch_input.values())
-        pitch_input = list(map(int, pitch_input))
         result = Prediction(pitch_input)
-        if int(result) == 1:
+        if int(result) > .5:
             prediction = 'STEEEEERIKE'
         else:
             prediction = 'BALL (Or Maybe a hit)!'
