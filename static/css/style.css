@@ -95,7 +95,9 @@ body {
     background-color: #3e8e41;
 } 
 
+
 /* Google slideshow */
+/* Code from https://www.labnol.org/embed-google-slides-200615 */
 .presentation {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 Ratio */
@@ -112,9 +114,7 @@ width: 100% !important;
 height: 100% !important;
 }
 
-.SelectionForm {
-    font-family: Teko;
-}
+
 
 
 
