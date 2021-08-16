@@ -5,18 +5,20 @@
 
 body {
 
-    color: #248b4b;
+    /* color: #248b4b; */
+    color:rgb(44, 164, 185)
 }
 
 
 /* Navbar */
-.navbar-customclass {
+/* .navbar-customclass {
     color: #7c2626;
-}
+} */
 
 .project-title {
     font-size: 20px;
     font-family: 'Lato';
+    color: #ffa500
 }
 
 
@@ -38,13 +40,13 @@ body {
 .jumbo-pitch {
     background-image: url('../images/pitching.jpg'); /* Background image from https://www.sharp.com/health-news/the-importance-of-good-pitching-form.cfm */
     background-size: 100% 300%;
-    color: rgb(214, 157, 34);
+    color: rgb(216, 14, 14);
 }
 
 .header {
     text-align: center;
     font-family: 'Teko';
-    color: rgb(197, 164, 18);
+    color: rgb(214, 157, 34);
 }
 
 
