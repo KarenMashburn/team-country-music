@@ -8,16 +8,37 @@ body {
     color: #248b4b;
 }
 
-/* Format Navbar */
+
+/* Navbar */
+.navbar-customclass {
+    color: #7c2626;
+}
+
 .project-title {
     font-size: 20px;
     font-family: 'Lato';
 }
 
+
+/* Jumbotron and Header */
 .jumbotron {
-    background-image: url("../images/baseball.jpg");
-    background-size: 100% 100%;
+    /* background-image: url("../images/vintage_bb.gif"); */
+    /* background-size: 33% 100%; */
     text-align: center;
+    border-style: solid;
+    font-family: 'Staatliches';
+}
+
+.jumbo-main {
+    background-image: url('../images/vintage_bb.gif');
+    background-size: 33% 100%;
+    color: rgb(214, 157, 34);
+}
+
+.jumbo-pitch {
+    background-image: url('../images/pitching.jpg');
+    background-size: 100% 300%;
+    color: rgb(214, 157, 34);
 }
 
 .header {
@@ -25,6 +46,7 @@ body {
     font-family: 'Teko';
     color: rgb(197, 164, 18);
 }
+
 
 /* Menu Dropdown Button */
 /* Code for dropdown menu found from https://www.w3schools.com/howto/howto_css_dropdown.asp */
@@ -72,3 +94,28 @@ body {
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 } 
+
+/* Google slideshow */
+.presentation {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.presentation iframe {
+border: 0;
+position: absolute;
+top: 0;
+left: 0;
+width: 100% !important;
+height: 100% !important;
+}
+
+.SelectionForm {
+    font-family: Teko;
+}
+
+
+
+
