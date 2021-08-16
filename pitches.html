@@ -24,7 +24,6 @@
 <body class = "bg-dark">
     <div class="wrapper">
         <nav class="navbar bg-primary">
-        <!-- navbar-dark bg-dark navbar-expand-lg"> -->
             <div class='project-title'>Team Country Music Hall of Fame Final Project</div>   
             <a class='toggle-button' href='#'>
                 <span class='bar'></span>
@@ -40,7 +39,7 @@
                     </div>
                 </div> 
             </div>
-        </nav>        
+        </nav>     
     </div>
 
     <div class='jumbotron jumbo-pitch'>
@@ -188,12 +187,17 @@
                         <option value='7'>7</option>
                         <option value='8'>8</option>
                     </select><br><br><br>
-
+                    
                     <!-- Prediction and Clear Buttons -->
-                    <input id="predict" type="submit" value="CLICK TO PREDICT">
-    
-                                <input id="reset" type="reset" value="reset selections"
+                    <div class='row'>
+                        <div class='col-sm-5'>
+                            <input id="predict" type="submit" value="PREDICT PITCH">
+                        </div>
+                        <div class='col-sm-5'>
+                            <br><input id="reset" type="reset" value="reset selections"
                                     onclick="document.getElementById('prediction').innerText=''">
+                        </div>
+                    </div>
                 </ul>
             </div>
             

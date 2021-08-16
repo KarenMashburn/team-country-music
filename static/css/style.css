@@ -11,8 +11,9 @@ body {
 
 
 /* Navbar */
-/* .navbar-customclass {
-    color: #7c2626;
+/* .navbar {
+    border-style: solid;
+    border-color: rgb(224, 10, 10);
 } */
 
 .project-title {
@@ -23,18 +24,20 @@ body {
 
 
 /* Jumbotron and Header */
+
 .jumbotron {
-    /* background-image: url("../images/vintage_bb.gif"); */
-    /* background-size: 33% 100%; */
     text-align: center;
     border-style: solid;
     font-family: 'Staatliches';
+    border-radius: 70px;
+    text-shadow: 8px 8px 10px black;
 }
 
 .jumbo-main {
     background-image: url('../images/vintage_bb.gif');
     background-size: 33% 100%;
     color: rgb(214, 157, 34);
+    /* color: rgb(255, 255, 255); */
 }
 
 .jumbo-pitch {
@@ -47,11 +50,14 @@ body {
     text-align: center;
     font-family: 'Teko';
     color: rgb(214, 157, 34);
+    text-shadow: 10px 10px 8px black;
 }
+
 
 
 /* Menu Dropdown Button */
 /* Code for dropdown menu found from https://www.w3schools.com/howto/howto_css_dropdown.asp */
+
 .dropbtn {
     background-color: #04AA6D;
     color: white;
@@ -118,6 +124,42 @@ height: 100% !important;
 
 
 
+/* Input Menus */
+
+select {
+    width: 21.5em;
+}
 
 
+/* Prediction and Clear Buttons */
 
+#predict {
+    width: 8em;
+    height: 3em;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 70px;
+    float: none;
+    /* background-color: rgb(192, 189, 11); */
+    background-color:rgb(221, 190, 49);
+    font-weight: 650;
+    box-shadow: 4px 4px black;
+}
+
+#reset {
+    width: 10em;
+    height: 2em;
+    font-size: 10px;
+    float: none;
+    border-radius: 70px;
+    background-color: rgb(243, 243, 243);
+}
+
+
+/* Wrapper */
+
+/* .wrapper {
+    display: flex;
+    height: auto;
+    justify-content: center;
+} */
