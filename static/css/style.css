@@ -1,10 +1,11 @@
 /* Import custom font */
 @import url('https://fonts.googleapis.com/css?family=Staatliches');
 @import url('https://fonts.googleapis.com/css?family=Teko');
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed');
 
 body {
-
+    font-family: 'Barlow Condensed';
+    font-size: 15px;
     /* color: #248b4b; */
     color:rgb(44, 164, 185)
 }
@@ -18,7 +19,7 @@ body {
 
 .project-title {
     font-size: 20px;
-    font-family: 'Lato';
+    font-family: 'Barlow Condensed';
     color: #ffa500
 }
 
@@ -62,7 +63,8 @@ body {
     background-color: #04AA6D;
     color: white;
     padding: 16px;
-    font-size: 16px;
+    font-size: 18px;
+    width: 120px;
     border: none;
 }
 
@@ -77,7 +79,7 @@ body {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 100px;
+    min-width: 120px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -127,7 +129,7 @@ height: 100% !important;
 /* Input Menus */
 
 select {
-    width: 21.5em;
+    width: 18em;
 }
 
 
