@@ -37,7 +37,7 @@ The "database" is simply a csv at the moment. But in order to integrate it with 
 Matthew has mocked up a gradient boosted classifer, a logistic model, and a neural network. 
 
 ### Dashboard
-We will use both Flask and D3.json to create an interactive model. The model will be hosted on github. 
+The dashboard will be a website with integrated powerpoint slides published on heroku. It should have drop down menus from which to customize a pitch, and a popup will tell the result of that pitch. 
 
 ## Updates
 Neural Net model "works" but with 0% accuracy. Need to update the zones to be catergorical rather than integers (should be easier for activation functions to predict). Also need to incorportate more datasets. 
