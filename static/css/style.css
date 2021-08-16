@@ -36,7 +36,7 @@ body {
 }
 
 .jumbo-pitch {
-    background-image: url('../images/pitching.jpg');
+    background-image: url('../images/pitching.jpg'); /* Background image from https://www.sharp.com/health-news/the-importance-of-good-pitching-form.cfm */
     background-size: 100% 300%;
     color: rgb(214, 157, 34);
 }
