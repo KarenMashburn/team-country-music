@@ -203,7 +203,9 @@
             
             <!-- Strike/Not-Strike Outcome -->
             <div class='col-md-3'>
-
+                <div class='container'>
+                    <h2 id='prediction'>{{prediction}}</h2>
+                </div>
             </div>
         </div>
     </div>
@@ -211,6 +213,26 @@
     <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
     <script src="../static/Python/app.py"></script>
+
+    <!-- Thanks Mike! -->
+    <script>
+        function refresh() {
+            const prediction_button = document.getElementById("predict");
+            prediction_button.onclick = function (event) {
+                event.preventDefault();
+                $.ajax({
+                    url: '/result',
+                    type: 'post',
+                    data: $('#SelectionForm').serialize(),
+                    success: function (data) {
+                        console.log(data)
+                        $("#prediction").html(data)
+                    }
+                });
+            }
+        }
+        refresh()
+    </script>
 
 </body>
 </html>
