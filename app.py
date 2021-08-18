@@ -30,16 +30,6 @@ def result():
         return prediction
 
 
-# @app.route('/result', methods=['POST'])
-# def result():
-#     if request.method == 'POST':
-#         pitch_input = list(pitch_input.values())
-#         result = Prediction(pitch_input)
-#         if int(result) > .5:
-#             prediction = 'STEEEEERIKE'
-#         else:
-#             prediction = 'BALL (Or Maybe a hit)!'
-#         return prediction
 
 
 if __name__ == '__Home__':
