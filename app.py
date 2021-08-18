@@ -14,6 +14,7 @@ def result():
     if request.method == 'POST':
         pitch_input = list(pitch_input.values())
         result = prediction(pitch_input)
+        #if str(result) == S:
         if int(result) > .5:
             prediction = 'STEEEEERIKE'
         else:
