@@ -61,7 +61,7 @@
                     <!-- Release Speed -->
                     <label for='ReleaseSpeed'>Release Speed (Default: 85 mph)</label><br>
     
-                    <select id='ReleaseSpeed'>
+                    <select id='release_speed' name='release_speed'>
                         <option value="85"> Select a Speed </option>
                         <option value="70"> 70 </option>
                         <option value="75"> 75 </option>
@@ -76,7 +76,7 @@
                     <!-- Zone -->
                     <label for='Zone'>Zone (Default: 5)</label><br>
     
-                    <select id='Zone'>
+                    <select id='zone' name='zone'>
                         <option value='5'>Select a Zone</option>
                         <option value='1'>1</option>    
                         <option value='2'>2</option>    
@@ -97,7 +97,7 @@
                     <!-- Balls -->
                     <label for='Balls'>Balls (Default: 0)</label><br>
     
-                    <select id='Balls'>
+                    <select id='balls' name='balls'>
                         <option value='0'>Select number of previous balls</option>
                         <option value='0'>0</option>    
                         <option value='1'>1</option>    
@@ -115,7 +115,7 @@
                     <!-- Strikes -->
                     <label for='Strikes'>Strikes (Default: 0)</label><br>
     
-                    <select id='Strikes'>
+                    <select id='strikes' name='strikes'>
                         <option value='0'>Select number of previous strikes</option>
                         <option value='0'>0</option>    
                         <option value='1'>1</option>    
@@ -125,7 +125,7 @@
                     <!-- inning -->
                     <label for='Inning'>Inning (Default: 1)</label><br>
     
-                    <select id='Inning'>
+                    <select id='inning' name='inning'>
                         <option value='1'>Select the inning</option>
                         <option value='1'>1</option>    
                         <option value='2'>2</option>    
@@ -141,7 +141,7 @@
                     <!-- Release Spin -->
                     <label for='ReleaseSpin'>Release Spin Rate (Default: 3000)</label><br>
     
-                    <select id='ReleaseSpin'>
+                    <select id='release_spin' name='release_spin'>
                         <option value='3000'>Select the spin rate</option>
                         <option value='2000'>2000</option>
                         <option value='2500'>2500</option>    
@@ -157,7 +157,7 @@
                     <!-- Release Extension -->
                     <label for='ReleaseExtension'>Release Extension (Default: 6.5)</label><br>
     
-                    <select id='ReleaseExtension'>
+                    <select id='release_ext' name='release_ext'>
                         <option value='6.5'>Select the length of extension before release</option>
                         <option value='6.0'>6.0</option>
                         <option value='6.25'>6.25</option>
@@ -169,7 +169,7 @@
                     <!-- Pitch Number -->
                     <label for='PitchNumber'>Pitch Number (Default: 1)</label><br>
     
-                    <select id='PitchNumber'>
+                    <select id='pitch_number' name='pitch_number'>
                         <option value='1'>Select how many pitches have been thrown</option>
                         <option value='1'>1</option>
                         <option value='2'>2</option>
@@ -185,22 +185,22 @@
                     
                     <label for='PitchType'>Pitch Type (Default: Fastball) </label><br>
     
-                    <select id='PitchType'>
-                        <option value='FA'> Select a Pitch Type </option>
-                        <option value='CH'>Change-Up</option>    
-                        <option value='CU'>Curveball</option>    
-                        <option value='FC'>Cutter</option> 
-                        <option value='EP'>Eephus</option>
-                        <option value='FA'>Fastball</option>
-                        <option value='FF'>Four-Seam Fastball</option> 
-                        <option value='FO'>Forkball</option>
-                        <option value='KC'>Knuckle Curve</option>
-                        <option value='KN'>Knuckleball</option> 
-                        <option value='SI'>Sinker</option>
-                        <option value='SL'>Slider</option>
-                        <option value='CS'>Slow Curveball</option>    
-                        <option value='FS'>Splitter</option> 
-                        <option value='FT'>Two-Seam Fastball</option>  
+                    <select id='pitch_type' name='pitch_type'>
+                        <option value='4'> Select a Pitch Type </option>
+                        <option value='0'>Change-Up</option>    
+                        <option value='1'>Curveball</option>    
+                        <option value='2'>Cutter</option> 
+                        <option value='3'>Eephus</option>
+                        <option value='4'>Fastball</option>
+                        <option value='5'>Four-Seam Fastball</option> 
+                        <option value='6'>Forkball</option>
+                        <option value='7'>Knuckle Curve</option>
+                        <option value='8'>Knuckleball</option> 
+                        <option value='9'>Sinker</option>
+                        <option value='10'>Slider</option>
+                        <option value='11'>Slow Curveball</option>    
+                        <option value='12'>Splitter</option> 
+                        <option value='13'>Two-Seam Fastball</option>  
                     </select><br><br>
                     
                     <!-- Prediction and Clear Buttons -->
