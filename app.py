@@ -10,13 +10,16 @@ model = pickle.load(open('all_pitchers_gbc_pitch.sav', 'rb'))
 def home():
     return render_template('index.html')
 
+
 # Predict-a-Pitch page
-@app.route('/predict')
+@app.route('/pitch')
 def predict_pitch():
     return render_template('pitches.html')
 
+
+@app.route('/predict', methods=['POST'])
 def prediction(pitch_input):
-    features = np.array(pitch_input).reshape(1, -1)
+    features = np.array(pitch_input).reshape(1, 23)
     result = model.predict(features)
     return result[0]
 
