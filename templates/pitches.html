@@ -57,29 +57,6 @@
                 
                 <ul class = "bg-dark">
                     
-                    <!-- Pitch Type -->
-                    
-                    <label for="PitchType">Pitch Type (Default: Fastball) </label><br>
-    
-                    <select id='PitchType'>
-                        <option value="FA"> Select a Pitch Type </option>
-                        <option value='CH'>Change-Up</option>    
-                        <option value='CU'>Curveball</option>    
-                        <option value='FC'>Cutter</option> 
-                        <option value='EP'>Eephus</option>
-                        <option value='FA'>Fastball</option>
-                        <option value='FF'>Four-Seam Fastball</option> 
-                        <option value='FO'>Forkball</option>
-                        <option value='KC'>Knuckle Curve</option>
-                        <option value='KN'>Knuckleball</option> 
-                        <option value='PO'>Pitchout</option>
-                        <option value='SC'>Screwball</option>
-                        <option value='SI'>Sinker</option>
-                        <option value='SL'>Slider</option>
-                        <option value='CS'>Slow Curveball</option>    
-                        <option value='FS'>Splitter</option> 
-                        <option value='FT'>Two-Seam Fastball</option>  
-                    </select><br><br>
                     
                     <!-- Release Speed -->
                     <label for="ReleaseSpeed">Release Speed (Default: 85 mph)</label><br>
@@ -117,12 +94,6 @@
                         <option value='14'>14</option>     
                     </select><br><br>
                     
-                </ul>
-            </div>
-
-            <div class='col-md-3'>
-                <ul class='bg-dark'>
-
                     <!-- Balls -->
                     <label for="Balls">Balls (Default: 0)</label><br>
     
@@ -134,6 +105,13 @@
                         <option value='3'>3</option>
                     </select><br><br>
                     
+                </ul>
+            </div>
+
+            <div class='col-md-3'>
+                <ul class='bg-dark'>
+
+                    
                     <!-- Strikes -->
                     <label for="Strikes">Strikes (Default: 0)</label><br>
     
@@ -142,6 +120,22 @@
                         <option value='0'>0</option>    
                         <option value='1'>1</option>    
                         <option value='2'>2</option>  
+                    </select><br><br>
+                    
+                    <!-- inning -->
+                    <label for="Inning">Inning (Default: 1)</label><br>
+    
+                    <select id='Inning'>
+                        <option value='1'>Select the inning</option>
+                        <option value='1'>1</option>    
+                        <option value='2'>2</option>    
+                        <option value='3'>3</option>  
+                        <option value='4'>4</option>
+                        <option value='5'>5</option>
+                        <option value='6'>6</option>
+                        <option value='7'>7</option>
+                        <option value='8'>8</option>
+                        <option value='9'>9</option>
                     </select><br><br>
                     
                     <!-- Release Spin -->
@@ -186,6 +180,30 @@
                         <option value='7'>7</option>
                         <option value='8'>8</option>
                     </select><br><br><br>
+                    
+                    <!-- Pitch Type -->
+                    
+                    <label for="PitchType">Pitch Type (Default: Fastball) </label><br>
+    
+                    <select id='PitchType'>
+                        <option value="FA"> Select a Pitch Type </option>
+                        <option value='CH'>Change-Up</option>    
+                        <option value='CU'>Curveball</option>    
+                        <option value='FC'>Cutter</option> 
+                        <option value='EP'>Eephus</option>
+                        <option value='FA'>Fastball</option>
+                        <option value='FF'>Four-Seam Fastball</option> 
+                        <option value='FO'>Forkball</option>
+                        <option value='KC'>Knuckle Curve</option>
+                        <option value='KN'>Knuckleball</option> 
+                        <option value='PO'>Pitchout</option>
+                        <option value='SC'>Screwball</option>
+                        <option value='SI'>Sinker</option>
+                        <option value='SL'>Slider</option>
+                        <option value='CS'>Slow Curveball</option>    
+                        <option value='FS'>Splitter</option> 
+                        <option value='FT'>Two-Seam Fastball</option>  
+                    </select><br><br>
                     
                     <!-- Prediction and Clear Buttons -->
                     <div class='row'>
