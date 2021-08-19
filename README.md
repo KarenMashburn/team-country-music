@@ -27,6 +27,7 @@ Additional meetings Sunday mornings.
 
 ## Technologies Used
 
+
 ### Data Cleaning and Analysis
 Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using PyPlot. 
 
@@ -107,5 +108,4 @@ We will use both Flask and D3.json to create an interactive model. The model wil
 
 ## Circle Role/Database
 For our mock database, we have preprocessed the statcast CSV provided by the MLB. Dayton and I collaborated together to remove unecessary rows, encode categorical data, and clean the data for number inconsistencies and null values that could have caused issues in our preliminary data explorations. We have sent the prelim version of the csv to each member in the group to work as our prelim database. 
-
 

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset='UTF-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+	<title>Pitch-O-Rama!</title>
+	<link
+		rel='stylesheet'
+		href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'
+		integrity='sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm'
+		crossorigin='anonymous'
+	/>
+	<link rel='stylesheet' href='../static/css/style.css'>
+
+
+	<script src='https://code.jquery.com/jquery-3.5.1.min.js'
+		integrity='sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=' crossorigin='anonymous'></script>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+</head>
+
+
+<body class = 'bg-dark'>
+	<div class='wrapper'>
+		<nav class='navbar' style='background-image: linear-gradient(black, rgba(6, 108, 167, 0.3))'>
+			<div class='project-title'>Team Country Music Hall of Fame Final Project</div>   
+			<div class = 'navbar-links'>
+				<div class='dropdown'>
+					<button class='dropbtn'>Navigate</button>
+					<div class='dropdown-content'>
+						<a href='/'>Home</a>
+						<a href='/pitch'>Predict-a-Pitch!</a>
+					</div>
+				</div> 
+			</div>
+		</nav>        
+	</div><br>
+
+	<div class='jumbotron jumbo-main'>
+		<h1 class='display-4'>Pitch-O-Rama!</h1>   
+	</div>
+
+	<div class='container-fluid'>
+		<div class='header'>
+			<h1>Modeling the Outcome of a Pitch With Machine Learning</h1><br>
+		</div>
+
+		<!-- Google Slides -->
+		<div class='row'>
+			<div class='col-md-6'>
+				<div class ='presentation'>
+					<iframe 
+						src='https://docs.google.com/presentation/d/1oTCmH0jA_3dtR0kVGq1bWAZvFO9u1cl-YB06-JuqyF8/embed?start=false'>
+					</iframe>
+			</div>
+        </div>
+
+		<!-- List -->
+        <div class='col-md-6'>
+            <!-- <h3>Welcome to the Pitch-O-Rama!</h3> -->
+				<ul class='bg-dark'>
+					<!-- <li class='list-group-item bg-dark'> -->
+						<h4>The Wind Up</h4>
+						<!-- <h5><i>How did we get here?</i></h5> -->
+						<li class='list-group-item bg-dark'>
+							Datasets cleaned using Pandas in Jupyter Notebook
+						</li>
+						<li class='list-group-item bg-dark'>
+							All data stored and connected using SQLite, Postgres, and AWS
+						</li>
+						<li class='list-group-item bg-dark'>
+							Model created using Pandas and Scikit-Learn in Jupyter Notebook
+						</li>
+						<li class='list-group-item bg-dark'>
+							Dashboard created using HTML/CSS, Flask, and minor in-line Javascript for functionality
+						</li>
+						<br>
+						<!-- This is a predictive module we have put together using Htm, Python, Javascript, SQL, Jupyter Notebooks, Flask, AWS, and CSS. 
+						We took data from the MLB statcast database for 2020 and 2019, cleaned and sorted the data, then parsed it down to a workable data set used to explore the questions we had about the MLB. 
+						We plugged our dataset into a variety of machine learning models to see what is was we could accurately predict, and what sort of module predicted it the best. 
+						In the end, and after 93 columns data, our Gradient Boosted Classifier model was able to predict pitch outcomes (Strike, Ball/Hit) with 73% accuracy. 
+						Our model and dataset decided, we converted our dataframe into SQL tables and loaded our servers into AWS. Now that our model was complete, we moved on to creating the Website housing that would hold our predictive models and allow users to interact with out dataset. 
+						We created a pair of HTML templates, one to house this introduction, and a second with a series of drop-down menus that allow you to choose from any of our dataset features, click a predict button, and our model will let you know the outcome of your hypothetical pitch. 
+						The website then calls from an app.py file that references our stored machine learning model, finds the predictive value for the combined inputs, and returns the outcome of your pitch. We hope you enjoy! -->
+					<!-- </li> -->
+					<!-- <li class='list-group-item bg-dark'> -->
+						<h4>The Pitch</h4>
+						<!-- <h5><i>How is our model?</i></h5> -->
+						<li class='list-group-item bg-dark'>
+							Gradient Boosted Classifier model based off MLB Statcast data from 2019-2020
+						</li>
+						<li class='list-group-item bg-dark'>
+							Only focused on top 9 pitchers in MLB due to computational barriers
+						</li>
+						<li class='list-group-item bg-dark'>
+							~71% accuracy in determining whether or not a pitch will be a 'strike'
+						</li>
+
+					<!-- Welcome to the Pitch-O-Rama, a predictive baseball simulator create to help you simulate the outcome of any pitching scenario you can imagine! 
+					Using a combination of technologies, coding languages, and a lot of team effort, we created this webpage to let you explore our data and see if you've got what it takes to beat the best pitchers in the MLB! 
+					The best nine pitchers in the MLB have combined and you get to call the shots. Can you strike out the side? -->
+					<!-- </li> -->
+				</ul>
+		</div>
+	</div>
+
+
+</body>
+</html>

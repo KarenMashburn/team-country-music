@@ -1,0 +1,153 @@
+/* Import custom font */
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+@import url('https://fonts.googleapis.com/css?family=Teko');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed');
+
+body {
+    font-family: 'Barlow Condensed';
+    font-size: 15px;
+    /* color: #248b4b; */
+    color:rgb(44, 164, 185);
+    /* color:rgb(236, 135, 67); */
+}
+
+
+.project-title {
+    font-size: 20px;
+    font-family: 'Barlow Condensed';
+    color: #ffa500
+}
+
+
+/* Jumbotron and Header */
+
+.jumbotron {
+    text-align: center;
+    border-style: solid;
+    font-family: 'Staatliches';
+    border-radius: 70px;
+    text-shadow: 8px 8px 10px black;
+}
+
+.jumbo-main {
+    background-image: url('../images/vintage_bb.gif');
+    background-size: 33% 100%;
+    color: rgb(214, 157, 34);
+    /* color: rgb(255, 255, 255); */
+}
+
+.jumbo-pitch {
+    background-image: url('../images/pitching.jpg'); /* Background image from https://www.sharp.com/health-news/the-importance-of-good-pitching-form.cfm */
+    background-size: 100% 300%;
+    color: rgb(216, 14, 14);
+}
+
+.header {
+    text-align: center;
+    font-family: 'Teko';
+    color: rgb(214, 157, 34);
+    text-shadow: 10px 10px 8px black;
+}
+
+
+
+/* Menu Dropdown Button */
+/* Code for dropdown menu found from https://www.w3schools.com/howto/howto_css_dropdown.asp */
+
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 18px;
+    width: 120px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;} 
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+} 
+
+
+/* Google slideshow */
+/* Code from https://www.labnol.org/embed-google-slides-200615 */
+.presentation {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.presentation iframe {
+border: 0;
+position: absolute;
+top: 0;
+left: 0;
+width: 100% !important;
+height: 100% !important;
+}
+
+
+
+/* Input Menus */
+
+select {
+    width: 18em;
+}
+
+
+/* Prediction and Clear Buttons */
+
+#predict {
+    width: 8em;
+    height: 3em;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 70px;
+    float: none;
+    /* background-color: rgb(192, 189, 11); */
+    background-color:rgb(221, 190, 49);
+    font-weight: 650;
+    box-shadow: 4px 4px black;
+}
+
+#reset {
+    width: 10em;
+    height: 2em;
+    font-size: 10px;
+    float: none;
+    border-radius: 70px;
+    background-color: rgb(243, 243, 243);
+}
