@@ -209,8 +209,8 @@
 
                     <select id='batter_stance' name='batter_stance'>
                         <option value='1'>Select the Batter's Stance</option>
-                        <option value='1'>Right</option>
-                        <option value='0'>Left</option>
+                        <option value='1'>Right-Hand</option>
+                        <option value='0'>Left-Hand</option>
                     </select><br><br>
 
                     <!-- Pitcher Handedness -->
@@ -238,12 +238,13 @@
             
             <!-- Strike/Not-Strike Outcome -->
             <div class='col-md-3'>
-                <div id='polaroid' class='polaroid'>
-                    <img id='animated-gif' src='static/images/vintage_pitch.gif'>
+                <!-- <div id='polaroid' class='polaroid'> -->
+                    <img id='animated-gif' src='static/images/vintage_pitch.gif' width=300 height='auto'><br><br>
                     <div class='container'>
-                        <h2 id='prediction'>{{prediction}}</h2>
+                        <h2 id='prediction' style='border-radius: 8px; color: red; text-shadow: 10px 10px 8px black; 
+                            text-align: center; background-color: rgb(216, 209, 209); border-radius: 70%;'>{{prediction}}</h2>
                     </div>
-                </div>
+                <!-- </div> -->
             </div>
         </div>
     </form>
