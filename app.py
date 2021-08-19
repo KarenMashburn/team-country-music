@@ -28,7 +28,7 @@ def type_encoder(p_type):
     vals = []
     for i in range(0, 15):
         vals.append(0)
-    # vals[p_type] = 1
+    vals[int(p_type)] = 1
     return vals
 
 
@@ -53,9 +53,9 @@ def result():
         # Display result
         if str(result) == 'S':
         # if int(result) > .5:
-            pitch_prediction = 'STEEEEERIKE'
+            pitch_prediction = 'STEEEEERIKE!!'
         else:
-            pitch_prediction = 'BALL (Or Maybe a hit)!'
+            pitch_prediction = 'Not a strike!<br>Get back on that hill and<br>TRY AGAIN'
         return pitch_prediction
 
 
