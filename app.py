@@ -3,7 +3,7 @@ from flask import Flask, request, render_template
 import pickle
 
 app = Flask(__name__)
-model = pickle.load(open('all_pitchers_gbc_pitch.sav', 'rb'))
+model = pickle.load(open('Models/Saved/all_pitchers_gbc_pitch.sav', 'rb'))
 
 # Home page
 @app.route('/')
@@ -55,7 +55,7 @@ def result():
         # if int(result) > .5:
             pitch_prediction = 'STEEEEERIKE!!'
         else:
-            pitch_prediction = 'Not a strike!<br>Get back on that hill and<br>TRY AGAIN'
+            pitch_prediction = 'Not a strike!<br>TRY AGAIN'
         return pitch_prediction
 
 
