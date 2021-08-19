@@ -11,12 +11,6 @@ body {
 }
 
 
-/* Navbar */
-/* .navbar {
-    border-style: solid;
-    border-color: rgb(224, 10, 10);
-} */
-
 .project-title {
     font-size: 20px;
     font-family: 'Barlow Condensed';
@@ -156,25 +150,3 @@ select {
     border-radius: 70px;
     background-color: rgb(243, 243, 243);
 }
-
-/* #prediction {
-    border-radius: 8px;
-    background-color: whitesmoke;
-    color: green;
-    text-shadow: 10px 10px 8px black;
-    text-align: center;
-}
-
-img.animated-gif {
-    border-radius: 8px;
-    width: 100px;
-    height: auto;
-} */
-
-/* Wrapper */
-
-/* .wrapper {
-    display: flex;
-    height: auto;
-    justify-content: center;
-} */
