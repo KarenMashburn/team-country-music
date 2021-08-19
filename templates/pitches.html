@@ -104,14 +104,7 @@
                         <option value='2'>2</option>  
                         <option value='3'>3</option>
                     </select><br><br>
-                    
-                </ul>
-            </div>
 
-            <div class='col-md-3'>
-                <ul class='bg-dark'>
-
-                    
                     <!-- Strikes -->
                     <label for='Strikes'>Strikes (Default: 0)</label><br>
     
@@ -122,7 +115,13 @@
                         <option value='2'>2</option>  
                     </select><br><br>
                     
-                    <!-- inning -->
+                </ul>
+            </div>
+
+            <div class='col-md-3'>
+                <ul class='bg-dark'>
+
+                    <!-- Inning -->
                     <label for='Inning'>Inning (Default: 1)</label><br>
     
                     <select id='inning' name='inning'>
@@ -148,15 +147,10 @@
                         <option value='3000'>3000</option>    
                         <option value='3500'>3500</option>  
                     </select><br><br>
-                </ul>
-            </div>
-                
-            <div class='col-md-3'>
-                <ul class='bg-dark'>
 
                     <!-- Release Extension -->
                     <label for='ReleaseExtension'>Release Extension (Default: 6.5)</label><br>
-    
+
                     <select id='release_ext' name='release_ext'>
                         <option value='6.5'>Select the length of extension before release</option>
                         <option value='6.0'>6.0</option>
@@ -180,13 +174,19 @@
                         <option value='7'>7</option>
                         <option value='8'>8</option>
                     </select><br><br>
+
+                </ul>
+            </div>
+                
+            <div class='col-md-3'>
+                <ul class='bg-dark'>
+
                     
                     <!-- Pitch Type -->
-                    
                     <label for='PitchType'>Pitch Type (Default: Fastball) </label><br>
     
                     <select id='pitch_type' name='pitch_type'>
-                        <option value='4'> Select a Pitch Type </option>
+                        <option value='4'>Select a Pitch Type </option>
                         <option value='0'>Change-Up</option>    
                         <option value='1'>Curveball</option>    
                         <option value='2'>Cutter</option> 
@@ -200,7 +200,26 @@
                         <option value='10'>Slider</option>
                         <option value='11'>Slow Curveball</option>    
                         <option value='12'>Splitter</option> 
-                        <option value='13'>Two-Seam Fastball</option>  
+                        <option value='13'>Two-Seam Fastball</option>
+                        <option value='14'>Unknown</option>  
+                    </select><br><br>
+
+                    <!-- Batter Stance -->
+                    <label for='BatterStance'>Batter Stance (Default: Right)</label><br>
+
+                    <select id='batter_stance' name='batter_stance'>
+                        <option value='1'>Select the Batter's Stance</option>
+                        <option value='1'>Right</option>
+                        <option value='0'>Left</option>
+                    </select><br><br>
+
+                    <!-- Pitcher Handedness -->
+                    <label for='PitcherHand'>Pitcher Stance (Default: Right-Hand)</label>
+
+                    <select id='pitcher_hand' name='pitcher_hand'>
+                        <option value='1'>Select the Pitcher's Stance</option>
+                        <option value='1'>Right-Hand</option>
+                        <option value='0'>Left-Hand</option>
                     </select><br><br>
                     
                     <!-- Prediction and Clear Buttons -->
@@ -220,7 +239,7 @@
             <!-- Strike/Not-Strike Outcome -->
             <div class='col-md-3'>
                 <div class='container'>
-                    <h2 id='prediction'>{{prediction}}{{vals}}</h2>
+                    <h2 id='prediction'>{{prediction}}</h2>
                 </div>
             </div>
         </div>

@@ -26,7 +26,7 @@ def prediction(pitch_input):
 
 def type_encoder(p_type):
     vals = []
-    for i in range(0, 14):
+    for i in range(0, 15):
         vals.append(0)
     # vals[p_type] = 1
     return vals
