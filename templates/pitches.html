@@ -55,7 +55,7 @@
                     
                     <!-- Release Speed -->
                     <label for='ReleaseSpeed'>Release Speed (Default: 85 mph)</label><br>
-    
+
                     <select id='release_speed' name='release_speed'>
                         <option value="85"> Select a Speed </option>
                         <option value="70"> 70 </option>
@@ -67,10 +67,10 @@
                         <option value="100"> 100 </option>
                         <option value="105"> 105 </option>
                     </select><br><br>
-                    
+
                     <!-- Zone -->
                     <label for='Zone'>Zone (Default: 5)</label><br>
-    
+
                     <select id='zone' name='zone'>
                         <option value='5'>Select a Zone</option>
                         <option value='1'>1</option>    
@@ -88,10 +88,10 @@
                         <option value='13'>13</option>
                         <option value='14'>14</option>     
                     </select><br><br>
-                    
+
                     <!-- Balls -->
                     <label for='Balls'>Balls (Default: 0)</label><br>
-    
+
                     <select id='balls' name='balls'>
                         <option value='0'>Select number of previous balls</option>
                         <option value='0'>0</option>    
@@ -102,7 +102,7 @@
 
                     <!-- Strikes -->
                     <label for='Strikes'>Strikes (Default: 0)</label><br>
-    
+
                     <select id='strikes' name='strikes'>
                         <option value='0'>Select number of previous strikes</option>
                         <option value='0'>0</option>    
@@ -118,7 +118,7 @@
 
                     <!-- Inning -->
                     <label for='Inning'>Inning (Default: 1)</label><br>
-    
+
                     <select id='inning' name='inning'>
                         <option value='1'>Select the inning</option>
                         <option value='1'>1</option>    
@@ -131,10 +131,10 @@
                         <option value='8'>8</option>
                         <option value='9'>9</option>
                     </select><br><br>
-                    
+
                     <!-- Release Spin -->
                     <label for='ReleaseSpin'>Release Spin Rate (Default: 3000)</label><br>
-    
+
                     <select id='release_spin' name='release_spin'>
                         <option value='3000'>Select the spin rate</option>
                         <option value='2000'>2000</option>
@@ -154,10 +154,10 @@
                         <option value='6.75'>6.75</option>    
                         <option value='7.0'>7.0</option>  
                     </select><br><br>
-                    
+
                     <!-- Pitch Number -->
                     <label for='PitchNumber'>Pitch Number (Default: 1)</label><br>
-    
+
                     <select id='pitch_number' name='pitch_number'>
                         <option value='1'>Select how many pitches have been thrown</option>
                         <option value='1'>1</option>
@@ -172,11 +172,10 @@
 
                 </ul>
             </div>
-                
+
             <div class='col-md-3'>
                 <ul class='bg-dark'>
 
-                    
                     <!-- Pitch Type -->
                     <label for='PitchType'>Pitch Type (Default: Fastball) </label><br>
     
@@ -216,14 +215,13 @@
                         <option value='1'>Right-Hand</option>
                         <option value='0'>Left-Hand</option>
                     </select><br><br>
-                    
+
                     <!-- Prediction and Clear Buttons -->
                     <div class='row'>
                         <div class='col-sm-5'>
                             <input id='predict' type='submit' value='PREDICT PITCH'>
                         </div>
                         <div class='col-sm-5'>
-                            
                             <br><input id='reset' type='reset' value='reset selections'
                                     onclick="document.getElementById('prediction').innerText=''">
                         </div>
@@ -233,20 +231,18 @@
             
             <!-- Strike/Not-Strike Outcome -->
             <div class='col-md-3'>
-                <!-- <div id='polaroid' class='polaroid'> -->
-                    <img id='animated-gif' src='static/images/vintage_pitch.gif' width=300 height='auto'><br><br>
-                    <div class='container'>
-                        <h2 id='prediction' style='border-radius: 8px; color: red; text-shadow: 10px 10px 8px black; 
-                            text-align: center; background-color: rgb(216, 209, 209); border-radius: 70%;'>{{prediction}}</h2>
-                    </div>
-                <!-- </div> -->
+                <img id='animated-gif' src='static/images/vintage_pitch.gif' width=300 height='auto'><br><br>
+                <div class='container'>
+                    <h2 id='prediction' style='border-radius: 8px; color: red; text-shadow: 10px 10px 8px black; 
+                        text-align: center; background-color: rgb(216, 209, 209); border-radius: 70%;'>{{prediction}}</h2>
+                </div>
             </div>
         </div>
     </form>
 
     <!-- Scripts -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js'></script>
-    <!-- <script src="../static/Python/app.py"></script> -->
+
 
     <!-- Thanks Mike! -->
     <script>
