@@ -157,6 +157,19 @@ select {
     background-color: rgb(243, 243, 243);
 }
 
+/* #prediction {
+    border-radius: 8px;
+    background-color: whitesmoke;
+    color: green;
+    text-shadow: 10px 10px 8px black;
+    text-align: center;
+}
+
+img.animated-gif {
+    border-radius: 8px;
+    width: 100px;
+    height: auto;
+} */
 
 /* Wrapper */
 
