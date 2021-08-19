@@ -74,12 +74,21 @@
           <!-- List -->
           <div class='col-md-6'>
             <ul class='bg-dark'>
-              <h4>Here's where we can list limitations, etc </h4>
+              <h4>Welcome to the Pitch-O-Rama </h4>
               <li class='list-group-item bg-dark'>
-                Point 1
+                The Wind Up <br> This is a predictive module we have put together using Html, Python, Javascript, SQL, Jupyter Notebooks, Flask, AWS, and CSS. 
+                We took data from the MLB statcast database for 2020 and 2019, cleaned and sorted the data, then parsed it down to a workable data set used to explore the questions we had about the MLB. 
+                We plugged our dataset into a variety of machine learning models to see what is was we could accurately predict, and what sort of module predicted it the best. 
+                In the end, and after 93 columns data, our Gradient Boosted Classifier model was able to predict pitch outcomes (Strike, Ball/Hit) with 73% accuracy. 
+                Our model and dataset decided, we converted our dataframe into SQL tables and loaded our servers into AWS. Now that our model was complete, we moved on to creating the Website housing that would hold our predictive models and allow users to interact with out dataset. 
+                We created a pair of HTML templates, one to house this introduction, and a second with a series of drop-down menus that allow you to choose from any of our dataset features, click a predict button, and our model will let you know the outcome of your hypothetical pitch. 
+                The website then calls from an app.py file that references our stored machine learning model, finds the predictive value for the combined inputs, and returns the outcome of your pitch. We hope you enjoy!
               </li>
               <li class='list-group-item bg-dark'>
-                Point 2
+                The Pitch <br>
+                Welcome to the Pitch-O-Rama, a predictive baseball simulator create to help you simulate the outcome of any pitching scenario you can imagine! 
+                Using a combination of technologies, coding languages, and a lot of team effort, we created this webpage to let you explore our data and see if you've got what it takes to beat the best pitchers in the MLB! 
+                The best nine pitchers in the MLB have combined and you get to call the shots. Can you strike out the side?
               </li>
             </ul>
           </div>
