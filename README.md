@@ -125,3 +125,9 @@ Due to the Gradient Boosted Classifier's use of 'weak learners', it is able to c
 ## Circle Role/Database
 For our mock database, we have preprocessed the statcast CSV provided by the MLB. Dayton and I collaborated together to remove unecessary rows, encode categorical data, and clean the data for number inconsistencies and null values that could have caused issues in our preliminary data explorations. We have sent the prelim version of the csv to each member in the group to work as our prelim database. 
 
+## Future Analysis
+As we expand our analysis into the future, we hope to answer many more of the questions that were unfortunately sidelined during the project, including:
+- How does our model's prediction change with the subsets of MLB players? (Per team, all-stars, etc.)
+- Can we determine what features drastically affect Delta win-percentage (probability that a team wins)?
+- Could an unsupervised model group the best pitchers to determine what makes them the best?
+
