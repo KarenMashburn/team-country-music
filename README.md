@@ -2,6 +2,8 @@
 
 ## [Link to Google Slides](https://docs.google.com/presentation/d/1oTCmH0jA_3dtR0kVGq1bWAZvFO9u1cl-YB06-JuqyF8/embed?start=false#slide=id.p)
 
+## [Link to Dashboard(https://pitch-o-rama.herokuapp.com/pitch)
+
 
 ## Topic
 For this project, we focused on pitching data from the MLB. This was chosen due to its intriguing nature and extreme flexibility, and because we believe that our explorations into the data could be very enjoyable for anyone who appreciates the game of baseball. Our data comes from the [MLB's Statcast](https://www.mlb.com/glossary/statcast) - a database created by teh MLB for the purspore fo analysing the statistical aspects of baseball. Cameras record data for every pith from every game of the MLB, each year producing datasets, hundreds of thousands of entries long, which are robust, clean, and downright fascinating. In our starting dataset alone, there were 93 columns of potential features - from the pitcher/batter present during the pitch event and the type of pitch thrown, to the outcome of each individual pitch, at bat, and game, to the x-z coordinates of the ball as it left the pitcher's hand or crossed over the plate. 
