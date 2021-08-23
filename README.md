@@ -1,8 +1,10 @@
 # Team Country Music Final Project
 
-## [Link to Google Slides](https://docs.google.com/presentation/d/1oTCmH0jA_3dtR0kVGq1bWAZvFO9u1cl-YB06-JuqyF8/embed?start=false#slide=id.p)
+## Links to Project
 
-## [Link to Dashboard(https://pitch-o-rama.herokuapp.com/pitch)
+[Link to Google Slides](https://docs.google.com/presentation/d/1oTCmH0jA_3dtR0kVGq1bWAZvFO9u1cl-YB06-JuqyF8/embed?start=false#slide=id.p)
+
+[Link to Dashboard](https://pitch-o-rama.herokuapp.com/pitch)
 
 
 ## Topic
